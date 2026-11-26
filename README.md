@@ -4,6 +4,14 @@
 
 # טדרלינק פיילס – Tedralink Files
 
+**⬇ [הורדה (אנדרואיד, Windows, Linux)](https://github.com/Scitedra-Labs/Tedralink-Files-releases/releases/latest)** · **📄 [עמוד המוצר](https://scitedra-labs.web.app/tedralink-files/)**
+
+<div dir="ltr">
+
+**⬇ [Download (Android, Windows, Linux)](https://github.com/Scitedra-Labs/Tedralink-Files-releases/releases/latest)** · **📄 [Product page](https://scitedra-labs.web.app/en/tedralink-files/)**
+
+</div>
+
 **הקבצים שלך, מכל מקום — בחיבור אחד מאובטח.**
 
 [עברית](#עברית) · [English](#english)
@@ -24,20 +32,20 @@
 
 | פלטפורמה | קובץ | הערות |
 |---|---|---|
-| 📱 **אנדרואיד (מומלץ)** | `TedralinkFiles-v0.2.0.apk` | אפליקציה עצמאית — השרת רץ על הטלפון, בלי מחשב. כולל גם מצב חיבור למחשב מרוחק |
-| 🪟 **Windows 10/11 (מומלץ)** | `TedralinkFiles-Setup-v0.2.0.exe` | מתקין מלא בעברית/אנגלית — Python וכל הרכיבים כלולים, אייקון במגש המערכת |
-| 🐧 Linux x64 | `TedralinkFiles-Linux-x64-v0.2.0.tar.gz` | גרסה ניידת, Python כלול — מריצים `./tedralink-files.sh` |
-| 📱 אנדרואיד – לקוח קל | `TedralinkFiles-Remote-v0.2.0.apk` | ‏(78KB) רק מתחבר למחשב שמריץ את טדרלינק |
-| 💻 קוד נייד (כל מערכת) | `TedralinkFiles-Desktop-v0.2.0.zip` | נדרש Python 3.10+; ‏`run.bat` / `./run.sh` (מתאים גם ל־macOS) |
+| 📱 **אנדרואיד (מומלץ)** | `TedralinkFiles-v0.2.6.apk` | אפליקציה עצמאית — השרת רץ על הטלפון, בלי מחשב. כולל גם מצב חיבור למחשב מרוחק |
+| 🪟 **Windows 10/11 (מומלץ)** | `TedralinkFiles-Setup-v0.2.6.exe` | מתקין מלא בעברית/אנגלית — Python וכל הרכיבים כלולים, אייקון במגש המערכת |
+| 🐧 Linux x64 | `TedralinkFiles-Linux-x64-v0.2.6.tar.gz` | גרסה ניידת, Python כלול — מריצים `./tedralink-files.sh` |
+| 📱 אנדרואיד – לקוח קל | `TedralinkFiles-PC-Remote-Lite-v0.2.6.apk` | ‏(109KB) רק מתחבר למחשב שמריץ את טדרלינק |
+| 💻 קוד נייד (כל מערכת) | `TedralinkFiles-Desktop-v0.2.6.zip` | נדרש Python 3.10+; ‏`run.bat` / `./run.sh` (מתאים גם ל־macOS) |
 
 ### התקנה ב־Windows
-1. מורידים ומריצים את `TedralinkFiles-Setup-v0.2.0.exe` (ייתכן ש־SmartScreen יציג אזהרה — "מידע נוסף" ← "הפעל בכל זאת").
+1. מורידים ומריצים את `TedralinkFiles-Setup-v0.2.6.exe` (ייתכן ש־SmartScreen יציג אזהרה — "מידע נוסף" ← "הפעל בכל זאת").
 2. בוחרים שפה, תיקייה ורכיבים: קיצור דרך בשולחן העבודה, הפעלה אוטומטית עם Windows, חוק חומת אש לרשתות פרטיות.
 3. טדרלינק מופיע במגש המערכת ופותח את הדפדפן; בכניסה הראשונה בוחרים סיסמת מנהל.
 4. בתפריט המגש: "גישה מהטלפון ברשת Wi-Fi" — כדי להתחבר מהטלפון. הסרה דרך "אפליקציות מותקנות".
 
 ### התקנה באנדרואיד
-1. פותחים את עמוד הגרסה **בטלפון** ומורידים את `TedralinkFiles-v0.2.0.apk`.
+1. פותחים את עמוד הגרסה **בטלפון** ומורידים את `TedralinkFiles-v0.2.6.apk`.
 2. פותחים את הקובץ ומאשרים "התקנת אפליקציות ממקורות לא ידועים" אם מתבקש.
 3. בהפעלה הראשונה מאשרים "גישה לכל הקבצים" והתראות; בוחרים סיסמה — וזהו, הכול רץ על הטלפון (SMB, ‏SFTP, ענן, ארכיונים…).
 4. בתפריט: "שיתוף ברשת ה־Wi-Fi" — כדי לגשת לקבצי הטלפון מהמחשב בדפדפן.
@@ -64,11 +72,11 @@
 
 **Downloads** ([latest release](../../releases/latest)):
 
-- **Android (recommended):** `TedralinkFiles-v0.2.0.apk` — standalone, the whole server runs on the phone (arm64-v8a / armeabi-v7a, Android 7+); also includes the remote-PC client mode.
-- **Windows 10/11 (recommended):** `TedralinkFiles-Setup-v0.2.0.exe` — Hebrew/English installer with bundled Python, tray app, "allow phone access on Wi-Fi" toggle, autostart, private-network firewall rule, uninstaller.
-- **Linux x64 portable:** `TedralinkFiles-Linux-x64-v0.2.0.tar.gz` — bundled Python, run `./tedralink-files.sh`.
-- **Android thin client:** `TedralinkFiles-Remote-v0.2.0.apk` — connects to a PC running Tedralink.
-- **Portable source zip:** `TedralinkFiles-Desktop-v0.2.0.zip` — any OS incl. macOS, needs Python 3.10+ (`run.bat` / `./run.sh`).
+- **Android (recommended):** `TedralinkFiles-v0.2.6.apk` — standalone, the whole server runs on the phone (arm64-v8a / armeabi-v7a, Android 7+); also includes the remote-PC client mode.
+- **Windows 10/11 (recommended):** `TedralinkFiles-Setup-v0.2.6.exe` — Hebrew/English installer with bundled Python, tray app, "allow phone access on Wi-Fi" toggle, autostart, private-network firewall rule, uninstaller.
+- **Linux x64 portable:** `TedralinkFiles-Linux-x64-v0.2.6.tar.gz` — bundled Python, run `./tedralink-files.sh`.
+- **Android thin client:** `TedralinkFiles-PC-Remote-Lite-v0.2.6.apk` — connects to a PC running Tedralink.
+- **Portable source zip:** `TedralinkFiles-Desktop-v0.2.6.zip` — any OS incl. macOS, needs Python 3.10+ (`run.bat` / `./run.sh`).
 
 Verify downloads with `SHA256SUMS.txt`.
 
