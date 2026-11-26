@@ -4,6 +4,14 @@
 
 # טדרלינק פיילס – Tedralink Files
 
+**⬇ [הורדה (אנדרואיד, Windows, Linux)](https://github.com/Scitedra-Labs/Tedralink-Files-releases/releases/latest)** · **📄 [עמוד המוצר](https://scitedra-labs.web.app/tedralink-files/)**
+
+<div dir="ltr">
+
+**⬇ [Download (Android, Windows, Linux)](https://github.com/Scitedra-Labs/Tedralink-Files-releases/releases/latest)** · **📄 [Product page](https://scitedra-labs.web.app/en/tedralink-files/)**
+
+</div>
+
 **הקבצים שלך, מכל מקום — בחיבור אחד מאובטח.**
 
 [עברית](#עברית) · [English](#english)
